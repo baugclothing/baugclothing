@@ -1,0 +1,34 @@
+.footer{
+    background-color:rgb(255, 255, 255);
+    width: 98%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    border: 1px solid grey;
+}
+
+.icon{
+    width: auto;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.p{
+    font-size: 1.2rem;
+}
+
+/* media query */
+
+@media (max-width: 380px) {
+    .p{
+        font-size: .8rem;
+    }
+    .icon{
+        height: 1.5rem;
+    }
+}

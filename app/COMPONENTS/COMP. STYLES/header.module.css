@@ -1,0 +1,42 @@
+.header{
+    width: 100%;
+    height: 5rem;
+    box-shadow: 0 4px 6px -2px rgb(224, 217, 217);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.darkMode .header {
+    background-color: #333333;
+}
+
+.logo{
+    width: 6rem;
+    height: auto;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    transform: rotate(360deg);
+}
+
+.icon{
+    width: 2rem;
+    height: auto;
+    cursor: pointer;
+    margin: 0 1.5rem 0 1.5rem;
+}
+
+/* media query */
+
+@media (max-width: 400px){
+    .logo{
+        width: 5rem;
+    }
+    .icon{
+        width: 1.6rem;
+    }
+}

@@ -1,0 +1,164 @@
+
+.showcaseBox{
+    display: flex;
+    flex-direction: column;
+    width: 32rem;
+    min-height: auto;
+    align-items: center;
+    background-color: rgb(229, 235, 235);
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    height: 100%;
+}
+
+.productBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 95%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: 0.5rem 0.5rem;
+    padding-bottom: 1rem;
+}
+
+/* LEFT-SIDE */
+
+.leftSide{
+    width: 75%;
+}
+
+.productImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.shirtImage{
+    width: 21rem;
+    height: auto;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.shirtImage:hover{
+    transform: scale(.95);
+}
+
+.productDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height: 15%;
+    text-overflow: ellipsis;
+}
+
+.h2{
+    font-size: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.h3{
+    font-size: 1.2rem;
+}
+
+/* RIGHT-SIDE */
+
+.rightSide{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    border-left: 1px solid rgba(0, 0, 0, 0.295);
+}
+
+.colorsTitle{
+    font-size: 1.2rem;
+    margin-top: .5rem;
+}
+
+.colorsContainer{
+    height: 100%;
+}
+
+.colorsCircles{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.circle{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+/* media query */
+
+@media (max-width: 520px) {
+    .showcaseBox{
+        width: 21rem;
+        height: 220vh;
+        padding-bottom: 4rem;
+    }
+
+    .shirtImage{
+        width: 14rem;
+    }
+
+    .h2{
+        font-size: 1.5rem;
+    }
+
+    .colorsTitle{
+        font-size: 1rem;
+    }
+
+    .circle{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        border: 1px solid grey;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .showcaseBox{
+        width: 14rem;
+    }
+
+    .shirtImage{
+        width: 8.5rem;
+    }
+
+    .h2{
+        font-size: 1rem;
+    }
+
+    .h3{
+        font-size: .8rem;
+    }
+
+    .colorsTitle{
+        font-size: .7rem;
+    }
+
+    .circle{
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        border: 1px solid grey;
+    }
+
+
+}

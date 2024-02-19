@@ -1,0 +1,15 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinha o conteúdo no início da página */
+    align-items: center;
+    width: 100%;
+    max-height: 250vh; /* Define a altura mínima da página */
+}
+
+@media (max-width: 520px) {
+    .main{
+        max-height: 100vh; /* Define a altura mínima da página */
+    }
+
+}

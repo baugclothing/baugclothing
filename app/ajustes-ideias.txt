@@ -1,0 +1,29 @@
+EM ORDEM DE PRIORIDADE, SEPARADO POR COMPONENTES/CATEGORIAS:
+
+---> HEADER:
+- (maybe?)colocar opções de modo escuro e um botão de "?" que leva para um página explicando que porra é essa. (testar background ser um scan bem foda de um desenho chaveta)
+
+
+
+---> SEARCH BAR:
+- fazer a search bar funcionar de fato (usar o nome do produto como base para a pesquisa)
+- botar um filtro pra selecionar apenas items especificos (camisetas, ecobags, posters, etc)
+- adicionar um filtro de hastags tipo "#DigitalizadosSeries, #ImperiocaSeries", etc. a ideia é parecer bem descolado com hastags e tals (talvez seja legal quando tiver mais coisa no site)
+
+
+
+---> SHOWCASE:
+- estilizar a pagina individual de cada produto
+- arrumar o fim da lista do showcase que corta do nada
+
+
+
+---> GERAL:
+- fazer uma tela de inicio do site diferente e botar o showcase depois (apenas se realmente tiver alguma ideia boa pra fazer de landing page)
+- fazer com que toda a vez que a página recarregar a ordem dos produtos seja alterada (mais dinamica? idk) (talvez seje uma ideia ruim pq é bom ter como destacar oq voce quer, como produtos que voce acha que venda mais)
+- FAZER UM ICONE DE MOUSE PERSONALIZADO !!!!!!!
+- fazer um icon da pagina web o iconizinho que mostra no navegador
+- mudar o scrollbar pra algo mais sutil
+
+
+
