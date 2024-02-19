@@ -1,6 +1,6 @@
 import timidrockMain from '../../public/shirts/timid-rock/branco.png'
 import facepalmMain from '../../public/shirts/face-palm/branco.png'
-import ecobaugMain from '../../public/shirts/ecoBAUG/branco.png'
+import ecobaugMain from '../../public/shirts/ecobaug/branco.png'
 
 const Produtos = [
     {
@@ -21,7 +21,7 @@ const Produtos = [
     },
     {
         id: 3,
-        nome: "EcoBAUG",
+        nome: "Ecobaug",
         displayName: "EcoBAUG",
         preco: "R$30,00",
         img: ecobaugMain,
