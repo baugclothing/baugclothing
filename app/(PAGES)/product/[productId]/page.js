@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react";
 
-import styles from '@/app/STYLES/product.module.css'
-import Produtos from "@/app/utils/Produtos";
+import styles from '../../../STYLES/product.module.css'
+import Produtos from "../../../utils/Produtos";
 import setaIcon from '@/public/icons/seta.png'
 import setadouradaIcon from '@/public/icons/setadourada.png'
 
