@@ -1,6 +1,6 @@
-import timidrockMain from '@/public/shirts/timid-rock/branco.png'
-import facepalmMain from '@/public/shirts/face-palm/branco.png'
-import ecobaugMain from '@/public/shirts/ecoBAUG/branco.png'
+import timidrockMain from '../../public/shirts/timid-rock/branco.png'
+import facepalmMain from '../../public/shirts/face-palm/branco.png'
+import ecobaugMain from '../../public/shirts/ecoBAUG/branco.png'
 
 const Produtos = [
     {

@@ -4,8 +4,7 @@ import { useState, useEffect } from "react";
 
 import styles from '../../../STYLES/product.module.css'
 import Produtos from "../../../utils/Produtos";
-import setaIcon from '@/public/icons/seta.png'
-import setadouradaIcon from '@/public/icons/setadourada.png'
+import setaIcon from '../../../../public/icons/seta.png'
 
 import Image from "next/image";
 import Link from "next/link";

@@ -1,11 +1,11 @@
 import React from 'react'
-import styles from '@/app/STYLES/about.module.css'
+import styles from '../../STYLES/about.module.css'
 
 import Image from 'next/image'
 import Link from 'next/link'
 
-import quemsomosImg from '@/public/about/quemsomos.png'
-import contatoImg from '@/public/about/contato.png'
+import quemsomosImg from '../../../public/about/quemsomos.png'
+import contatoImg from '../../../public/about/contato.png'
 
 const About = () => {
   return (
