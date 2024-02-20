@@ -40,7 +40,7 @@ const Camiseta = ({ params }) => {
         { id: 4, nome: "Verde", hex: "#284434" },
         { id: 5, nome: "LaranjaEscuro", hex: "#ff5c04" },
         { id: 6, nome: "LaranjaClaro", hex: "#ffa41c" },
-        { id: 7, nome: "Amarelo", hex: "#fffc04" },
+        { id: 7, nome: "Amarelo", hex: "#e8c709" },
         { id: 8, nome: "Vermelho", hex: "#a00404" },
     ];
 
@@ -65,6 +65,7 @@ const Camiseta = ({ params }) => {
                         <div className={styles.productDetails}>
                             <span className={styles.h2} title={product.displayName}>{product.displayName.length > 10 ? product.displayName.substring(0, 10) + '...' : product.displayName} - {product.preco}</span>
                             </div>
+
                             <div className={styles.productImage}>
                             <Link href={product.img} target="_blank">
                                 <Image
@@ -76,6 +77,9 @@ const Camiseta = ({ params }) => {
                                 />
                             </Link>
                             </div>
+
+                            <p className={styles.moreInfo}>*Mais informações sobre o produto e tamanho no forms de pré-venda</p>
+
                             
 
                         </div>
@@ -110,7 +114,7 @@ const Camiseta = ({ params }) => {
                                 Gostou dessa estampa? 
                                 Para comprar ela ou qualquer outro produto do site na pré-venda clique no botão abaixo! (Duração até Maio de 2024)
                                 </h3>
-                            <Link href={'https://docs.google.com/forms/d/1NaE5Rs8la7vr3FaoA_y4xlB0WGCPRwCVznPCmTmleGM'} target="_blank"><button className={styles.button}>Quero!</button></Link>
+                            <Link href={'https://forms.gle/1uY8DajdAqGg96tJ8'} target="_blank"><button className={styles.button}>Quero!</button></Link>
                         </div>
                 </main>
             )}

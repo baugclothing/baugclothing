@@ -178,6 +178,14 @@
     height: 0;
 }
 
+.moreInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: .7rem;
+}
+
 /* media query */
 
 @media (max-width: 1230px) {

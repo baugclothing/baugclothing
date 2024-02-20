@@ -17,13 +17,13 @@ const Produtos = [
         displayName: "Face Palm",
         preco: "R$65,00",
         img: facepalmMain,
-        cores: ["#ffffff", "#000000", "#fffc04", "#ffa41c", "#a00404"]
+        cores: ["#ffffff", "#000000", "#e8c709"]
     },
     {
         id: 3,
         nome: "Ecobaug",
         displayName: "EcoBAUG",
-        preco: "R$30,00",
+        preco: "R$35,00",
         img: ecobaugMain,
         cores: ["#ffffff"]
     }

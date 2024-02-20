@@ -26,7 +26,7 @@ const Showcase = () => {
         { id: 4, nome: "Verde", hex: "#284434" },
         { id: 5, nome: "LaranjaEscuro", hex: "#ff5c04" },
         { id: 6, nome: "LaranjaClaro", hex: "#ffa41c" },
-        { id: 7, nome: "Amarelo", hex: "#fffc04" },
+        { id: 7, nome: "Amarelo", hex: "#e8c709" },
         { id: 8, nome: "Vermelho", hex: "#a00404" },
     ];
 
