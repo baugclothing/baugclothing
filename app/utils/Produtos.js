@@ -7,7 +7,7 @@ const Produtos = [
         id: 1,
         nome: "Timid-Rock",
         displayName: "Timid Rock",
-        preco: "R$65,00",
+        preco: "R$60,00",
         img: timidrockMain,
         cores: ["#ffffff"]
     },
@@ -15,7 +15,7 @@ const Produtos = [
         id: 2,
         nome: "Face-Palm",
         displayName: "Face Palm",
-        preco: "R$65,00",
+        preco: "R$60,00",
         img: facepalmMain,
         cores: ["#ffffff", "#000000", "#e8c709"]
     },
@@ -23,7 +23,7 @@ const Produtos = [
         id: 3,
         nome: "Ecobaug",
         displayName: "EcoBAUG",
-        preco: "R$35,00",
+        preco: "R$30,00",
         img: ecobaugMain,
         cores: ["#ffffff"]
     }
